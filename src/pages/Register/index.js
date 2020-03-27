@@ -17,7 +17,7 @@ export default function Register()
     const [city, setCity] = useState('');
     const [uf, setUf] = useState('');
 
-    const history = useHistory(); //Função js para linkar de forma instantânea ao ser chamado
+    const history = useHistory(); //Função js para linkar de forma instantânea ao ser chamado.
 
     async function handleRegister(e){ //Criação da função de cadastro
         e.preventDefault(); // Tira o padrão de recarga e otimiza, como o Link do react-router-dom

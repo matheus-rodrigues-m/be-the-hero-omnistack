@@ -42,7 +42,7 @@ export default function Profile() {
     function handleLogout(){
         localStorage.clear();
 
-        history.push('/'); //Manda de volta para a raiz
+        history.push('/'); //Manda de volta para a raiz.
     }
 
     return (
